@@ -1,0 +1,103 @@
+// < !-- メイン トップビジュアル-->
+.top-view{
+
+    position: relative;
+    padding:0;
+
+    .catch-copy-area {
+        position: absolute;
+        top:20%;
+        left:55%;
+        color:white;
+
+        .catch-copy {
+            font-size: 1.5rem;
+            margin: 0 0 1rem 0;
+        }
+
+    }
+}
+
+.conversion-click {
+    width: 6rem;
+    height: 1.1rem;
+    font-size: 0.6rem;
+    border:.3px solid white;
+    margin: 0 auto;
+    
+
+    p {
+        line-height: 1rem;
+        text-align: center;
+    }
+
+}
+
+section {
+
+    margin-top: 3rem;
+
+    p {
+        font-size: 14px;
+        line-height: 2;
+        margin: 0 0 20px 0;
+
+    }
+
+    h4 {
+        margin: 1rem 0 3rem;
+    }
+
+    .h4-read{
+        margin:0;
+        font-weight: bold;    }
+
+}
+
+// < !-- リード文 -->
+.lead-text{
+
+    h2{
+        font-size: 22px;
+        margin:0 0 3rem;
+    }
+}
+
+
+
+// < !-- ファーストコンバージョン -->
+
+.first-conversion-area {
+
+    .first-conversion-wrapper{
+        position: relative;
+
+        .first-conversion{
+            position:absolute;
+            top:35px;
+            left:110px;
+
+            h3 {
+                font-size: 20px;
+
+            }
+
+            p {
+                font-size: 8px;
+            }
+
+            .conversion-click{
+                border:1px solid black;
+            }
+        }
+    }
+}
+
+// < !-- コンセプト セクション-->
+.margin-bottom-3rem{
+    margin-bottom:3rem;
+}
+.concept{
+
+    
+}

@@ -1,0 +1,80 @@
+.top-view {
+  position: relative;
+  padding: 0;
+}
+
+.top-view .catch-copy-area {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  color: white;
+}
+
+.top-view .catch-copy-area .catch-copy {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.conversion-click {
+  width: 6rem;
+  height: 1.1rem;
+  font-size: 0.6rem;
+  border: .3px solid white;
+  margin: 0 auto;
+}
+
+.conversion-click p {
+  line-height: 1rem;
+  text-align: center;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 2;
+  margin: 0 0 20px 0;
+}
+
+section h4 {
+  margin: 1rem 0 3rem;
+}
+
+section .h4-read {
+  margin: 0;
+  font-weight: bold;
+}
+
+.lead-text h2 {
+  font-size: 22px;
+  margin: 0 0 3rem;
+}
+
+.first-conversion-area .first-conversion-wrapper {
+  position: relative;
+}
+
+.first-conversion-area .first-conversion-wrapper .first-conversion {
+  position: absolute;
+  top: 35px;
+  left: 110px;
+}
+
+.first-conversion-area .first-conversion-wrapper .first-conversion h3 {
+  font-size: 20px;
+}
+
+.first-conversion-area .first-conversion-wrapper .first-conversion p {
+  font-size: 8px;
+}
+
+.first-conversion-area .first-conversion-wrapper .first-conversion .conversion-click {
+  border: 1px solid black;
+}
+
+.margin-bottom-3rem {
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=main.css.map */

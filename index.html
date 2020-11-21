@@ -8,16 +8,23 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;500&family=Prata&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+
 </head>
 
 <body>
     <div class="container">
         <!-- ヘッダーナビゲーション -->
-        <header class="navigation row">
-            <div class="col-12">
+        <header class="row">
+            <div class="navigation col-12">
                 <div class="menu">
-                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
@@ -28,7 +35,7 @@
                     <p>ONLINE SHOP</p>
                 </div>
                 <div class="login-icon">
-                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
@@ -36,63 +43,73 @@
                 </div>
             </div>
             <div class="header-banner col-12">
-                banner
+                <div>
+                    <p>会員様限定♪20％Off!</p>
+                </div>
             </div>
         </header>
 
         <!-- メイン トップビジュアル-->
-        <main class="top-view row">
-            <div class="col-12">
+        <main class="row">
+            <div class="top-view col-12">
                 <img src="./images/welcome-img2.png" alt="">
-                <h2>HOLISTIC<br>BEAUTY</h2>
-                <button class="login">click</button>
+                <div class="catch-copy-area">
+                    <p class="catch-copy">HOLISTIC<br>BEAUTY</p>
+                    <a>
+                        <div class="conversion-click">
+                            <p>click</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </main>
 
         <!-- リード文 -->
-        <section class="lead-text row">
-            <div class="col-12">
-                <h2>LARANJE On-line SHOP</h2>
-                <p>当店は、広島県に9店舗展開している美容室<br>
+        <section class="row">
+            <div class="lead-text col-12">
+                <h2 class="site-name">LARANJE On-line SHOP</h2>
+                <p>当店は、広島県に9店舗展開している美容室
                     LALANJE（ラランジェ）が運営する美容通販サイトです</p>
-                <p>ご来店時だけでなく、毎日のホームケアにお役に立てる<br>
+                <p>ご来店時だけでなく、毎日のホームケアにお役に立てる
                     厳選PRODUCTSをご用意いたしました</p>
             </div>
         </section>
 
         <!-- ファーストコンバージョン -->
-        <section class="first-conversion row">
-            <div class="col-12">
+        <section class="first-conversion-area row">
+            <div class="first-conversion-wrapper col-12">
                 <img src="./images/cosme.png" alt="">
-                <h3>Welcome!</h3>
-                <p>LARANJE On-line SHOP</p>
-                <button class="conversion-click">click</button>
+                <div class="first-conversion">
+                    <h3>Welcome!</h3>
+                    <p>LARANJE On-line SHOP</p>
+                    <a>
+                        <div class="conversion-click">
+                            <p>click</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
 
         <!-- コンセプト セクション-->
         <section class="concept row">
             <div class="col-12">
-                <h3>Concept</h3>
+                <h3 class="margin-bottom-3rem">Concept</h3>
             </div>
             <div class="col-12">
-                <p class="h3-read">お客様の”毎日を創る” 貴方の日常に”寄り添える”<br>
+                <p class="h3-read">お客様の”毎日を創る” 貴方の日常に”寄り添える”
                     LARANJEであり続けたい</p>
             </div>
-            <div class="section-centence">
-                <p>お手入れが楽で再現性のある<br>
-                    ヘアスタイルをご提供する<br>
-                    そして、外面（スガタ）だけでなく<br>
-                    内面（ココロ・カラダ）の 美しさ<br>
-                    ＝ HOLISTIC BEAUTY をトータルでサポート
-                </p>
+            <div class="section-centence col-12">
+                <p>お手入れが楽で再現性のある<br>ヘアスタイルをご提供する</p>
+                <p>そして、外面（スガタ）だけでなく内面（ココロ・カラダ）の美しさ＝ HOLISTIC BEAUTY をトータルでサポート</p>
             </div>
         </section>
 
         <!-- サービス セクション-->
         <section class="service row">
             <div class="col-12">
-                <h3>Service</h3>
+                <h3 class="margin-bottom-3rem">Service</h3>
             </div>
             <div class="service-icon col-12">
                 <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor"
@@ -106,11 +123,12 @@
             </div>
             <div class="section-centence col-sm-12 col-md-6">
                 <p class="h4-read">メンバー様限定</p>
-                <p section-centence>お手入れが楽で再現性のある<br>
-                    ヘアスタイルをご提供する<br>
-                    そして、外面（スガタ）だけでなく<br>
-                    内面（ココロ・カラダ）の 美しさ<br>
-                    ＝ HOLISTIC BEAUTY をトータルでサポート
+                <p section-centence>ラランジェ会員様限定の
+                    ショッピングサイトです</p>
+                <p>
+                    サイトインするためのIDとPWは
+                    公式アプリのお知らせ
+                    または 各店舗でお伝えしております。
                 </p>
             </div>
             <div class="section-img col-sm-12 col-md-6">

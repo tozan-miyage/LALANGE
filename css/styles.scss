@@ -2,5 +2,28 @@
 // h2 キャッチコピー
 // h3 セクション見出し
 // h4 セクション小見出し
+body {
+    font-family: 'Noto Serif JP',
+        'Noto Sans JP',
+        'Prata',
+        sans-serif,
+        serif;
+    
+
+    p {
+        margin: 0;
+    }
 
 
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    text-align: center;
+
+    .container {
+        margin: 0 auto;
+    }
+
+}
