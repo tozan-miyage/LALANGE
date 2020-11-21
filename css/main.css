@@ -70,11 +70,32 @@ section .h4-read {
   font-size: 8px;
 }
 
-.first-conversion-area .first-conversion-wrapper .first-conversion .conversion-click {
+.conversion-click {
   border: 1px solid black;
+}
+
+.conversion-click p {
+  font-size: 8px;
+}
+
+.service-icon,
+.margin-top-3rem {
+  margin-top: 3rem;
 }
 
 .margin-bottom-3rem {
   margin-bottom: 3rem;
+}
+
+.about-us {
+  background-color: #f0f0f0;
+}
+
+.about-us p {
+  text-align: left;
+}
+
+.about-us .col-3 {
+  padding-left: 1.4rem;
 }
 /*# sourceMappingURL=main.css.map */

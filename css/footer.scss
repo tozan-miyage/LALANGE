@@ -1,0 +1,28 @@
+// < !-- フッター -->
+
+footer{
+
+    .footer-img {
+    padding:0;
+    position: relative;
+    }
+
+    .main-logo{
+        position: absolute;
+        font-size: 1.4rem;
+        bottom:1rem;
+        left:1rem;
+    }
+
+    p {
+        font-size: 9px;
+        line-height: 32px;
+    }
+
+    .copyright-area{
+        height: 32px;
+        background-color: #101010;
+        color: white;
+    }
+
+}

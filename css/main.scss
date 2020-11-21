@@ -86,18 +86,46 @@ section {
                 font-size: 8px;
             }
 
-            .conversion-click{
-                border:1px solid black;
-            }
         }
     }
 }
 
-// < !-- コンセプト セクション-->
-.margin-bottom-3rem{
-    margin-bottom:3rem;
+.conversion-click{
+    border:1px solid black;
+    p {
+        font-size: 8px;
+       }
 }
-.concept{
 
-    
+
+// < !-- コンセプト セクション-->
+.service-icon,
+.margin-top-3rem
+ {
+    margin-top:3rem;
 }
+
+.margin-bottom-3rem{
+    margin-bottom: 3rem;
+}
+
+// < !-- 便利機能で簡単Shopping -->
+.about-us{
+
+    background-color: #f0f0f0;
+
+    p {
+        text-align: left;
+    }
+
+    .col-3 {
+        padding-left:1.4rem;
+    }
+
+}
+
+
+
+
+
+

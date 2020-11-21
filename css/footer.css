@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+footer .footer-img {
+  padding: 0;
+  position: relative;
+}
+
+footer .main-logo {
+  position: absolute;
+  font-size: 1.4rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+footer p {
+  font-size: 9px;
+  line-height: 32px;
+}
+
+footer .copyright-area {
+  height: 32px;
+  background-color: #101010;
+  color: white;
+}
+/*# sourceMappingURL=footer.css.map */
