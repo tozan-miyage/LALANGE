@@ -1,0 +1,92 @@
+@media (min-width: 576px) {
+  .top-view .catch-copy-area {
+    top: 20%;
+    left: 55%;
+    color: white;
+  }
+  .top-view .catch-copy-area .catch-copy {
+    font-size: 2.2rem;
+    margin: 0 0 1rem 0;
+  }
+  .conversion-click {
+    width: 6rem;
+    height: 1.3rem;
+    font-size: 0.6rem;
+    border: 1px solid white;
+    margin: 0 auto;
+  }
+  .conversion-click p {
+    line-height: 1.3rem;
+    text-align: center;
+    font-size: 12px;
+  }
+  section {
+    margin-top: 3rem;
+  }
+  section p {
+    line-height: 2;
+    margin: 0 0 20px 0;
+    font-size: 1rem;
+  }
+  section h4 {
+    margin: 1rem 0 3rem;
+  }
+  section .h4-read {
+    margin: 0;
+    font-weight: bold;
+  }
+  section .h3-border {
+    border-bottom: 2px solid black;
+    line-height: 1.8;
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+  section .section-sentence {
+    padding: 0 10%;
+  }
+  .read-text h2 {
+    font-size: 2rem;
+    margin: 0 0 3rem;
+  }
+  .first-conversion-area .first-conversion-wrapper {
+    position: relative;
+  }
+  .first-conversion-area .first-conversion-wrapper .first-conversion {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .first-conversion-area .first-conversion-wrapper .first-conversion h3 {
+    font-size: 2rem;
+  }
+  .first-conversion-area .first-conversion-wrapper .first-conversion p {
+    font-size: 10px;
+  }
+  .first-conversion-area .first-conversion-wrapper .first-conversion .conversion-click {
+    border-color: black;
+  }
+  .service .conversion-click {
+    border-color: black;
+  }
+  .service-icon,
+  .margin-top-3rem {
+    margin-top: 3rem;
+  }
+  .margin-bottom-3rem {
+    margin-bottom: 3rem;
+  }
+  .about-us {
+    background-color: #f0f0f0;
+    padding: 0 0.5rem 5rem;
+  }
+  .about-us p {
+    text-align: left;
+  }
+  .about-us .col-4 {
+    padding-left: 3.5rem;
+  }
+}
+/*# sourceMappingURL=main-responsive.css.map */

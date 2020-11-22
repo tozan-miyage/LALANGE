@@ -1,0 +1,161 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // < !-- メイン トップビジュアル-->
+
+  .top-view {
+    // position: relative;
+    // padding: 0;
+
+    .catch-copy-area {
+      // position: absolute;
+      top: 20%;
+      left: 55%;
+      color: white;
+
+      .catch-copy {
+        font-size: 3rem;
+        margin: 0 0 1rem 0;
+      }
+    }
+  }
+
+  .conversion-click {
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid white;
+    margin: 0 auto;
+
+    p {
+      line-height: 2rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+
+  section {
+    margin-top: 3rem;
+
+    p {
+      line-height: 2;
+      margin: 0 0 20px 0;
+      font-size: 1rem;
+    }
+
+    h4 {
+      margin: 1rem 0 3rem;
+    }
+
+    .h4-read {
+      font-weight: bold;
+      margin-bottom: 1.6rem;
+    }
+
+    .h3-border {
+      border-bottom: 2px solid black;
+      line-height: 1.8;
+      display: inline-block;
+      padding: 0 0.5rem;
+    }
+
+    .section-sentence {
+      padding: 0 5%;
+    }
+  }
+
+  // < !-- リード文 -->
+  .read-text {
+    h2 {
+      font-size: 2rem;
+      margin: 0 0 3rem;
+    }
+  }
+
+  // < !-- ファーストコンバージョン -->
+
+  .first-conversion-area {
+    .first-conversion-wrapper {
+      position: relative;
+
+      .first-conversion {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+
+        h3 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 10px;
+        }
+
+        .conversion-click {
+          width: 10rem;
+          height: 2rem;
+          border: 1px solid black;
+          margin: 0 auto;
+
+          p {
+            line-height: 2rem;
+            text-align: center;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // < !-- コンセプト セクション-->
+  .h3-border {
+    border-bottom: 2px solid black;
+    line-height: 1.8;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 2rem;
+  }
+
+  .concept {
+  }
+
+  .service {
+    .conversion-click {
+      width: 10rem;
+      height: 2rem;
+      border: 1px solid black;
+      margin: 0 auto;
+
+      p {
+        line-height: 2rem;
+        text-align: center;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .service-icon,
+  .margin-top-3rem {
+    margin-top: 6rem;
+  }
+
+  .margin-bottom-3rem {
+    margin-bottom: 3rem;
+  }
+
+  // < !-- 便利機能で簡単Shopping -->
+  .about-us {
+    background-color: #f0f0f0;
+    padding: 0 5rem 5rem;
+
+    p {
+      text-align: left;
+    }
+
+    .wrapper {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+}

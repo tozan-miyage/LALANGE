@@ -1,28 +1,51 @@
 // < !-- フッター -->
 
-footer{
-
-    .footer-img {
-    padding:0;
+footer {
+  .footer-img {
+    padding: 0;
     position: relative;
-    }
+  }
 
-    .main-logo{
-        position: absolute;
-        font-size: 1.4rem;
-        bottom:1rem;
-        left:1rem;
-    }
+  .main-logo {
+    position: absolute;
+    font-size: 1.4rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
 
-    p {
-        font-size: 9px;
-        line-height: 32px;
-    }
+  p {
+    font-size: 9px;
+    line-height: 32px;
+  }
 
-    .copyright-area{
-        height: 32px;
-        background-color: #101010;
-        color: white;
-    }
+  .copyright-area {
+    height: 32px;
+    background-color: #101010;
+    color: white;
+  }
 
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .main-logo {
+      position: absolute;
+      font-size: 2.5rem;
+      bottom: 2rem;
+      left: 4rem;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
 }

@@ -1,7 +1,7 @@
 
 .navigation{
     width: 100%;
-    height: 80px;
+    // height: 10px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -35,4 +35,60 @@
             font-size:0.7rem;
             line-height: 1.5rem;
         }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .navigation {
+        width: 100%;
+        // height: 10px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0;
+        margin: auto;
+
+        .menu,
+        .login-icon,
+        .main-logo {
+            margin: auto 0;
+            padding: 1.6rem;
+        }
+
+            h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        svg {
+            width: 2.5em;
+            height: 2.5em;
+        
+        }
+
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .header-banner{ 
+        height: 2rem;
+        p {
+            font-size:1rem;
+            line-height: 2rem;
+        }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
 }

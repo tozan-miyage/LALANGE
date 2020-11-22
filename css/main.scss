@@ -22,7 +22,7 @@
     width: 6rem;
     height: 1.1rem;
     font-size: 0.6rem;
-    border:.3px solid white;
+    border: 1px solid white;
     margin: 0 auto;
     
 
@@ -52,6 +52,19 @@ section {
         margin:0;
         font-weight: bold;    }
 
+    .h3-border{
+        border-bottom: 2px solid black;
+        line-height: 1.8;
+        display: inline-block;
+        padding: 0 .5rem;
+
+    }
+
+    .section-sentence {
+        width: 85%;
+        margin: 0 auto;
+    }
+
 }
 
 // < !-- リード文 -->
@@ -73,9 +86,12 @@ section {
         position: relative;
 
         .first-conversion{
-            position:absolute;
-            top:35px;
-            left:110px;
+            position: absolute;
+            top: 47%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
 
             h3 {
                 font-size: 20px;
@@ -86,19 +102,40 @@ section {
                 font-size: 8px;
             }
 
+            .conversion-click{
+                border-color: black;
+
+                p {
+                    line-height: 1rem;
+                    text-align: center;
+                }
+                
+            }
         }
     }
-}
 
-.conversion-click{
-    border:1px solid black;
-    p {
-        font-size: 8px;
-       }
 }
 
 
 // < !-- コンセプト セクション-->
+.concept{
+    
+}
+
+.service{
+    .conversion-click {
+        border-color: black;
+        height: 1.5rem;
+
+        p {
+            line-height: 1.3rem;
+            text-align: center;
+        }
+
+    }
+}
+
+
 .service-icon,
 .margin-top-3rem
  {
@@ -113,6 +150,8 @@ section {
 .about-us{
 
     background-color: #f0f0f0;
+    padding:0 .5rem 5rem;
+
 
     p {
         text-align: left;
@@ -121,6 +160,8 @@ section {
     .col-3 {
         padding-left:1.4rem;
     }
+
+
 
 }
 

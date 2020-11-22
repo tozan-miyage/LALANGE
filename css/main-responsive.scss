@@ -1,0 +1,154 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  // < !-- メイン トップビジュアル-->
+
+  .top-view {
+    // position: relative;
+    // padding: 0;
+
+    .catch-copy-area {
+      // position: absolute;
+      top: 20%;
+      left: 55%;
+      color: white;
+
+      .catch-copy {
+        font-size: 2.2rem;
+        margin: 0 0 1rem 0;
+      }
+    }
+  }
+
+  .conversion-click {
+    width: 6rem;
+    height: 1.3rem;
+    font-size: 0.6rem;
+    border: 1px solid white;
+    margin: 0 auto;
+
+    p {
+      line-height: 1.3rem;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+
+  section {
+    margin-top: 3rem;
+
+    p {
+      line-height: 2;
+      margin: 0 0 20px 0;
+      font-size: 1rem;
+    }
+
+    h4 {
+      margin: 1rem 0 3rem;
+    }
+
+    .h4-read {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .h3-border {
+      border-bottom: 2px solid black;
+      line-height: 1.8;
+      display: inline-block;
+      padding: 0 0.5rem;
+    }
+
+    .section-sentence {
+      padding: 0 10%;
+    }
+  }
+
+  // < !-- リード文 -->
+  .read-text {
+    h2 {
+      font-size: 2rem;
+      margin: 0 0 3rem;
+    }
+  }
+
+  // < !-- ファーストコンバージョン -->
+
+  .first-conversion-area {
+    .first-conversion-wrapper {
+      position: relative;
+
+      .first-conversion {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+
+        h3 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 10px;
+        }
+
+        .conversion-click {
+          border-color: black;
+        }
+      }
+    }
+  }
+
+  // < !-- コンセプト セクション-->
+  .concept {
+  }
+
+  .service {
+    .conversion-click {
+      border-color: black;
+      // height: 1.5rem;
+
+      // p {
+      //     font-size: 16px;
+      //     line-height: 1.5rem;
+      // }
+    }
+  }
+  .service-icon,
+  .margin-top-3rem {
+    margin-top: 3rem;
+  }
+
+  .margin-bottom-3rem {
+    margin-bottom: 3rem;
+  }
+
+  // < !-- 便利機能で簡単Shopping -->
+  .about-us {
+    background-color: #f0f0f0;
+    padding: 0 0.5rem 5rem;
+
+    p {
+      text-align: left;
+    }
+
+    .col-4 {
+      padding-left: 3.5rem;
+    }
+  }
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}

@@ -19,7 +19,7 @@
   width: 6rem;
   height: 1.1rem;
   font-size: 0.6rem;
-  border: .3px solid white;
+  border: 1px solid white;
   margin: 0 auto;
 }
 
@@ -47,6 +47,18 @@ section .h4-read {
   font-weight: bold;
 }
 
+section .h3-border {
+  border-bottom: 2px solid black;
+  line-height: 1.8;
+  display: inline-block;
+  padding: 0 .5rem;
+}
+
+section .section-sentence {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .lead-text h2 {
   font-size: 22px;
   margin: 0 0 3rem;
@@ -58,8 +70,11 @@ section .h4-read {
 
 .first-conversion-area .first-conversion-wrapper .first-conversion {
   position: absolute;
-  top: 35px;
-  left: 110px;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .first-conversion-area .first-conversion-wrapper .first-conversion h3 {
@@ -70,12 +85,23 @@ section .h4-read {
   font-size: 8px;
 }
 
-.conversion-click {
-  border: 1px solid black;
+.first-conversion-area .first-conversion-wrapper .first-conversion .conversion-click {
+  border-color: black;
 }
 
-.conversion-click p {
-  font-size: 8px;
+.first-conversion-area .first-conversion-wrapper .first-conversion .conversion-click p {
+  line-height: 1rem;
+  text-align: center;
+}
+
+.service .conversion-click {
+  border-color: black;
+  height: 1.5rem;
+}
+
+.service .conversion-click p {
+  line-height: 1.3rem;
+  text-align: center;
 }
 
 .service-icon,
@@ -89,6 +115,7 @@ section .h4-read {
 
 .about-us {
   background-color: #f0f0f0;
+  padding: 0 .5rem 5rem;
 }
 
 .about-us p {

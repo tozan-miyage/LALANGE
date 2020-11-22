@@ -15,4 +15,10 @@ body img {
 body .container {
   margin: 0 auto;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
